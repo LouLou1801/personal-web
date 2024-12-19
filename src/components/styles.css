@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;500;700&display=swap');
+
+.about-row {
+  justify-content: center;
+  padding: 30px;
+  
+}
+
+
+.about-col {
+  justify-content: center;
+  background-color: #000000;
+  padding-top: 30px;
+}
+
+.contact-platform{
+  background-color: #000000;
+  padding: 2px;
+  min-Height:100;
+}
+
+.container {
+  padding: 50px;
+
+}
+
+.col-email{
+  padding-left:100px;
+  padding-right:100px;
+}
+
+
+.section {
+  padding-top:80px;
+  background-color: #000000;
+  min-height: 100vh;}
+
+.home-section {
+  background-color: #000000;
+  min-height: 100vh;
+  background-image: url('../assets/background.png');
+  background-size: cover;
+  background-position: center;
+}
+.contact-section {
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 20px !important;
+    color:white
+  }
+}
+
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(0, 0, 0, 0.5) !important;
+}
+.tech-icon-images {
+  padding: 20px !important;
+  line-height: 1.6 !important;
+}
+
+.tech-icon-color{
+  color:'white';
+}
+
+.text-about {
+  padding-top: 100px; /* Adjust the value as needed */
+  justify-content: center;
+  color:#ffffff;
+  font-size: 55px;
+  }
+.text-home{
+/* Adjust the value as needed */
+  font-size: 60px;
+  color:#ffffff;
+  font-family: 'Merriweather';
+}
+.text-home-p{
+  font-size: 30px;
+  color:#ffffff;
+  font-family: 'Merriweather';
+}
+.text-about-content{
+  font-family: 'Merriweather';
+  color:#ffffff;
+  font-size: 40px
+}
+.text-contact{
+  padding-top: 100px; /* Adjust the value as needed */
+  justify-content: center;
+  font-size: 55px;
+  color:#ffffff;
+}
+
+.know-me-text {
+  font-size: 30px;
+  color:white;
+  justify-content: center; }
+
+.about-color {
+  background-color:#000000;
+}
+
+.form-col {
+  justify-content: left;
+  background-color: #f0f0f0;
+  padding: 500px;
+}
+.label-name {
+  color:#ffffff;
+  padding:20px}
+.email-box{
+  background: linear-gradient(135deg, #000000, #1c1c1c); /* Example gradient */
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(191, 186, 186, 0.1), 0 0 20px rgba(255, 255, 255, 0.8); /* Subtle glow effect */
+  transition: box-shadow 0.3s ease-in-out;
+  padding: 40px 30px;
+}
+.form-control{ max-width: 100%; /* Make sure input fields don't exceed the container width */
+padding: 12px 20px; /* Adjust padding inside the input fields */
+margin-bottom: 10px;
+}
+
+.edu-text{
+  color:white;
+}

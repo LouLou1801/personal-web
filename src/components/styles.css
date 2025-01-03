@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
 
 .about-row {
   justify-content: center;
@@ -48,6 +50,7 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 
@@ -77,20 +80,24 @@
   justify-content: center;
   color:#ffffff;
   font-size: 55px;
+  font-family: 'Space Grotesk', sans-serif;
   }
 .text-home{
 /* Adjust the value as needed */
-  font-size: 60px;
+  font-size: 5vw;  /* This means 10% of the viewport's width */
+  font-weight: bold;  /* Makes the text bold */
+  text-align: center; 
   color:#ffffff;
-  font-family: 'Merriweather';
+  font-family: 'Roboto', sans-serif;
 }
 .text-home-p{
   font-size: 30px;
   color:#ffffff;
-  font-family: 'Merriweather';
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
 }
 .text-about-content{
-  font-family: 'Merriweather';
+  font-family: 'Space Grotesk', sans-serif;
   color:#ffffff;
   font-size: 40px
 }
@@ -104,7 +111,8 @@
 .know-me-text {
   font-size: 30px;
   color:white;
-  justify-content: center; }
+  justify-content: center; 
+  font-family: 'Space Grotesk', sans-serif;}
 
 .about-color {
   background-color:#000000;
@@ -131,5 +139,7 @@ margin-bottom: 10px;
 }
 
 .edu-text{
-  color:white;
+  color:#ffffff;
+  font-family: 'Space Grotesk', sans-serif;
+  
 }

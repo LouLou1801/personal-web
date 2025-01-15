@@ -25,7 +25,7 @@ const About = () => {
                 When I have free time, I like to draw, play games, and garden.</p>
               </Col>
               <Col xs={12} md={6} className = "about-col about-color">
-                <h2 className ="text-about-content"> Skillset</h2>
+                <h2 className ="text-about-content"> <strong> Skillset </strong></h2>
                 <Row className ="about-row">
                  <Col xs={12} md={4} className ="tech-icons">
                   <DiJavascript1 size="5em" style={{color:'white'}}/>
